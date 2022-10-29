@@ -23,4 +23,18 @@ int main (){
     cout<<"Element at front-> "<<v.front()<<endl;
     cout<<"Element at back-> "<<v.back()<<endl;
 
+    cout<<"Before pop"<<endl;
+    cout<<"Size-> "<<v.size()<<endl;
+    for(int i:v){
+        cout<<i<<" ";
+    }cout<<endl;
+
+    v.pop_back();
+    
+    
+    cout<<"After pop"<<endl;
+    for(int i:v){
+        cout<<i<<" ";
+    }cout<<endl;
+    cout<<"Size-> "<<v.size()<<endl;
 }
