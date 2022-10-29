@@ -18,4 +18,6 @@ int main (){
 
     cout<<"Size-> "<<v.size()<<endl;
 
+    cout<<"Element at 2nd index "<<v.at(2)<<endl;
+
 }
