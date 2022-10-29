@@ -37,4 +37,14 @@ int main (){
         cout<<i<<" ";
     }cout<<endl;
     cout<<"Size-> "<<v.size()<<endl;
+
+    cout<<"Before Clear Size-> "<<v.size()<<endl;
+    cout<<"Before Clear capacity-> "<<v.capacity()<<endl;
+
+    v.clear();
+    cout<<"Befor Clear Size-> "<<v.size()<<endl;
+    cout<<"After Clear capacity-> "<<v.capacity()<<endl;
+    
+
+
 }
