@@ -46,8 +46,15 @@ int main (){
     cout<<"After Clear capacity-> "<<v.capacity()<<endl;
     
     vector<int> a(5,1);
-    cout<<"Print a vector "<<endl;
+    cout<<"Print 'a' vector "<<endl;
     for(int i:a){
+        cout<<i<<" ";
+    }cout<<endl;
+    cout<<"Size-> "<<v.size()<<endl;
+
+    vector<int> last(a);
+    cout<<"Print last vector "<<endl;
+    for(int i:last){
         cout<<i<<" ";
     }cout<<endl;
     cout<<"Size-> "<<v.size()<<endl;
