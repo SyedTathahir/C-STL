@@ -20,4 +20,7 @@ int main (){
 
     cout<<"Element at 2nd index "<<v.at(2)<<endl;
 
+    cout<<"Element at front-> "<<v.front()<<endl;
+    cout<<"Element at back-> "<<v.back()<<endl;
+
 }
