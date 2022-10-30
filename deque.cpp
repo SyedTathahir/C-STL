@@ -12,6 +12,19 @@ d.push_front(2);
 for(int i:d){
     cout<<i<<" ";
 }cout<<endl;
+/*
+d.pop_back();
+cout<<endl;
+for(int i:d){
+    cout<<i<<" ";
+}cout<<endl;
+
+d.pop_front();
+for(int i:d){
+    cout<<i<<" ";
+}cout<<endl;
+*/
+
 
 
 }
