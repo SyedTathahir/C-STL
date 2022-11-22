@@ -22,6 +22,11 @@ int main (){
 
     cout<<"Element at front : "<<a.front()<<endl;
     cout<<"Element at Back : "<<a.back()<<endl;
+    
+    
+    
+    
+    
 
 
     
